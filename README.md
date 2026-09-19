@@ -50,6 +50,20 @@ Launch the UI:
 streamlit run app.py
 ```
 
+## Visual Proof & Dashboard Screenshots
+
+### 1. Held-Out Evaluation Dashboard
+Side-by-side metric comparison proving 100% source accuracy, 100% refusal accuracy, and 0% false answer rate.
+![Evaluation Benchmark Dashboard](docs/images/eval_benchmark_dashboard.png)
+
+### 2. Grounded Answer in Live Support Chat
+Live interactive support chat showing Grounding Ratio, Guardrails status (`REFUSE`/`PASS`), Cited Sources, and L2 Distance scores.
+![Live Support Chat Grounded Answer](docs/images/live_chat_grounded_answer.png)
+
+### 3. Out-Of-Domain (OOD) Guardrail Refusal
+Pre-retrieval OOD keyword gate detecting out-of-scope queries (e.g., cryptocurrency payments) and cleanly refusing before model hallucination.
+![Live Support Chat Guardrail Refusal](docs/images/live_chat_guardrail_refusal.png)
+
 ## Project layout
 
 | Path | Role |
