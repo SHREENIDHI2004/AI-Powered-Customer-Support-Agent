@@ -1,0 +1,1472 @@
+{
+  "baseline_note": "No prior README.md existed in this repository; TF-IDF/LSA + extractive numbers below are the captured baseline from the same eval_set.json.",
+  "targets": {
+    "refusal_accuracy": 0.9,
+    "false_answer_rate": 0.05,
+    "avg_grounding_ratio": 0.75
+  },
+  "baseline": {
+    "metrics": {
+      "label": "TF-IDF/LSA + extractive (baseline)",
+      "n_cases": 44,
+      "n_answerable": 28,
+      "n_unanswerable": 16,
+      "source_accuracy": 0.9642857142857143,
+      "refusal_accuracy": 0.9375,
+      "false_answer_rate": 0.0625,
+      "avg_grounding_ratio": 1.0,
+      "n_answered_for_grounding": 29
+    },
+    "rows": [
+      {
+        "id": "a01",
+        "question": "What is the return window after delivery?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 1.0,
+        "retrieved_sources": [
+          "returns_and_refunds.md",
+          "returns_and_refunds.md",
+          "cancellations_and_modifications.md",
+          "payment_methods.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "The return window starts from the date your order is delivered. ## Shipping Fees for Returns\nReturn shipping is FREE for defective items or order errors made by us. You may return ",
+        "refusal_reason": null
+      },
+      {
+        "id": "a02",
+        "question": "What is the return policy for headphones?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 1.0,
+        "retrieved_sources": [
+          "returns_and_refunds.md",
+          "cancellations_and_modifications.md",
+          "product_noise_canceling_headphones.md",
+          "returns_and_refunds.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "# Return & Refund Policy\n\n## Overview\nWe offer a hassle-free 30-day return policy for most items purchased on our store. The return window starts from the date your order is delive",
+        "refusal_reason": null
+      },
+      {
+        "id": "a03",
+        "question": "How much is the return shipping fee if I change my mind?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 1.0,
+        "retrieved_sources": [
+          "returns_and_refunds.md",
+          "cancellations_and_modifications.md",
+          "shipping_and_delivery.md",
+          "returns_and_refunds.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "For standard remorse returns (e.g., changed mind or wrong size), a flat return shipping label fee of $5.99 will be deducted from your refund. ## Address & Item Modifications\nIf you",
+        "refusal_reason": null
+      },
+      {
+        "id": "a04",
+        "question": "Which items cannot be returned?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 1.0,
+        "retrieved_sources": [
+          "returns_and_refunds.md",
+          "gift_cards_and_promotions.md",
+          "cancellations_and_modifications.md",
+          "price_match_policy.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "## Non-Returnable Items\nThe following items cannot be returned or exchanged:\n- Clearance or \"Final Sale\" items. Once an order enters the automated fulfillment pipeline, we cannot m",
+        "refusal_reason": null
+      },
+      {
+        "id": "a05",
+        "question": "How long do refunds take to appear on my bank statement?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 1.0,
+        "retrieved_sources": [
+          "returns_and_refunds.md",
+          "product_solar_power_bank.md",
+          "product_ergonomic_chair.md",
+          "returns_and_refunds.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "Refunds take 5-10 business days to appear on your bank statement depending on your card issuer. # Product Specifications: ErgoFlex Ergonomic Office Chair\n\n## Overview\nThe ErgoFlex ",
+        "refusal_reason": null
+      },
+      {
+        "id": "a06",
+        "question": "What is the cost of standard shipping and when is it free?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 1.0,
+        "retrieved_sources": [
+          "returns_and_refunds.md",
+          "shipping_and_delivery.md",
+          "cancellations_and_modifications.md",
+          "shipping_and_delivery.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "# Shipping & Delivery Policy\n\n## Shipping Options & Rates\nWe offer several shipping methods for domestic customers within the continental United States:\n- **Standard Shipping (3-5 ",
+        "refusal_reason": null
+      },
+      {
+        "id": "a07",
+        "question": "How much does overnight shipping cost and what is the cutoff time?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 1.0,
+        "retrieved_sources": [
+          "shipping_and_delivery.md",
+          "warranty_and_repairs.md",
+          "returns_and_refunds.md",
+          "shipping_and_delivery.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "# Shipping & Delivery Policy\n\n## Shipping Options & Rates\nWe offer several shipping methods for domestic customers within the continental United States:\n- **Standard Shipping (3-5 ",
+        "refusal_reason": null
+      },
+      {
+        "id": "a08",
+        "question": "Do you ship internationally and who pays customs duties?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 1.0,
+        "retrieved_sources": [
+          "shipping_and_delivery.md",
+          "returns_and_refunds.md",
+          "gift_cards_and_promotions.md",
+          "payment_methods.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "Note that international orders may be subject to local import duties, taxes, and customs clearance fees, which are the responsibility of the customer. ## International Shipping\nWe ",
+        "refusal_reason": null
+      },
+      {
+        "id": "a09",
+        "question": "How long does order processing take before dispatch?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 1.0,
+        "retrieved_sources": [
+          "shipping_and_delivery.md",
+          "cancellations_and_modifications.md",
+          "cancellations_and_modifications.md",
+          "product_ergonomic_chair.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "## Order Processing Time\nOrders are processed and dispatched within 24 to 48 hours on business days (Monday through Friday, excluding public holidays). ## Cancellations After Dispa",
+        "refusal_reason": null
+      },
+      {
+        "id": "a10",
+        "question": "Which credit cards and digital wallets do you accept?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 1.0,
+        "retrieved_sources": [
+          "gift_cards_and_promotions.md",
+          "payment_methods.md",
+          "returns_and_refunds.md",
+          "payment_methods.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "# Payment Methods Policy\n\n## Accepted Payment Options\nWe accept a variety of secure payment methods for your convenience:\n- Major Credit & Debit Cards: Visa, MasterCard, American E",
+        "refusal_reason": null
+      },
+      {
+        "id": "a11",
+        "question": "Can I use Klarna for a $200 order?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 1.0,
+        "retrieved_sources": [
+          "cancellations_and_modifications.md",
+          "product_mechanical_keyboard.md",
+          "cancellations_and_modifications.md",
+          "product_smart_watch_pro.md"
+        ],
+        "source_hit": false,
+        "answer_preview": "# Order Cancellations & Modifications\n\n## Order Cancellation Window\nYou can cancel your order free of charge within **1 hour** of placing it. - **Battery Life**: Up to 7 days of no",
+        "refusal_reason": null
+      },
+      {
+        "id": "a12",
+        "question": "How long do I have to cancel an order for free?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 1.0,
+        "retrieved_sources": [
+          "cancellations_and_modifications.md",
+          "cancellations_and_modifications.md",
+          "product_ergonomic_chair.md",
+          "returns_and_refunds.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "# Order Cancellations & Modifications\n\n## Order Cancellation Window\nYou can cancel your order free of charge within **1 hour** of placing it. ## Address & Item Modifications\nIf you",
+        "refusal_reason": null
+      },
+      {
+        "id": "a13",
+        "question": "Can I change my shipping address after the order enters fulfillment?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 1.0,
+        "retrieved_sources": [
+          "cancellations_and_modifications.md",
+          "cancellations_and_modifications.md",
+          "shipping_and_delivery.md",
+          "shipping_and_delivery.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "Once an order enters the automated fulfillment pipeline, we cannot modify the shipping address or add/remove items. ## Address & Item Modifications\nIf you need to change the shippi",
+        "refusal_reason": null
+      },
+      {
+        "id": "a14",
+        "question": "What is the manufacturer warranty length for electronics?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 1.0,
+        "retrieved_sources": [
+          "warranty_and_repairs.md",
+          "warranty_and_repairs.md",
+          "warranty_and_repairs.md",
+          "returns_and_refunds.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "# Warranty & Repairs Policy\n\n## Standard Manufacturer Warranty\nAll electronic hardware products sold on our store come with a **1-year limited manufacturer warranty** starting from",
+        "refusal_reason": null
+      },
+      {
+        "id": "a15",
+        "question": "Does the warranty cover accidental drops or cracked screens?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 1.0,
+        "retrieved_sources": [
+          "warranty_and_repairs.md",
+          "warranty_and_repairs.md",
+          "warranty_and_repairs.md",
+          "gift_cards_and_promotions.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "## Warranty Exclusions\nThe warranty does NOT cover:\n- Accidental drops, physical impact, cosmetic damage, or cracked screens. ## Warranty Coverage\nThe warranty covers:\n- Manufactur",
+        "refusal_reason": null
+      },
+      {
+        "id": "a16",
+        "question": "Do gift cards expire?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 1.0,
+        "retrieved_sources": [
+          "gift_cards_and_promotions.md",
+          "returns_and_refunds.md",
+          "gift_cards_and_promotions.md",
+          "payment_methods.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "- Gift cards **never expire** and carry zero inactivity fees. # Gift Cards & Promotional Codes Policy\n\n## Digital Gift Cards\n- Digital gift cards can be purchased in denominations ",
+        "refusal_reason": null
+      },
+      {
+        "id": "a17",
+        "question": "Can I stack two promotional codes on one order?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 1.0,
+        "retrieved_sources": [
+          "gift_cards_and_promotions.md",
+          "gift_cards_and_promotions.md",
+          "cancellations_and_modifications.md",
+          "cancellations_and_modifications.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "## Promotional Coupons & Promo Codes\n- Only **one promotional code** can be applied per order at checkout. # Gift Cards & Promotional Codes Policy\n\n## Digital Gift Cards\n- Digital ",
+        "refusal_reason": null
+      },
+      {
+        "id": "a18",
+        "question": "How many days of battery life does the ApexFit Pro Smartwatch have?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 1.0,
+        "retrieved_sources": [
+          "product_smart_watch_pro.md",
+          "product_smart_watch_pro.md",
+          "product_mechanical_keyboard.md",
+          "product_wireless_earbuds.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "# Product Specifications: ApexFit Pro Smartwatch\n\n## Overview\nThe ApexFit Pro Smartwatch is a premium fitness and health tracking smartwatch designed for active lifestyles. - **Bat",
+        "refusal_reason": null
+      },
+      {
+        "id": "a19",
+        "question": "What is the price of the SoundSphere ANC headphones and how much noise do they cancel?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 1.0,
+        "retrieved_sources": [
+          "product_noise_canceling_headphones.md",
+          "product_noise_canceling_headphones.md",
+          "cancellations_and_modifications.md",
+          "price_match_policy.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "# Product Specifications: SoundSphere ANC Wireless Headphones\n\n## Overview\nSoundSphere Wireless Headphones feature Hybrid Active Noise Cancellation (ANC) technology and high-fideli",
+        "refusal_reason": null
+      },
+      {
+        "id": "a20",
+        "question": "What is the weight capacity of the ErgoFlex office chair?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 1.0,
+        "retrieved_sources": [
+          "product_ergonomic_chair.md",
+          "product_ergonomic_chair.md",
+          "shipping_and_delivery.md",
+          "catalog_unsupported_items.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "# Product Specifications: ErgoFlex Ergonomic Office Chair\n\n## Overview\nThe ErgoFlex Chair is designed to provide full-body support and promote healthy posture during long work or g",
+        "refusal_reason": null
+      },
+      {
+        "id": "a21",
+        "question": "Which switches come pre-installed on the KeyCraft Pro mechanical keyboard?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 1.0,
+        "retrieved_sources": [
+          "product_mechanical_keyboard.md",
+          "product_mechanical_keyboard.md",
+          "product_portable_projector.md",
+          "product_smart_watch_pro.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "# Product Specifications: KeyCraft Pro Mechanical Keyboard\n\n## Overview\nKeyCraft Pro is a 75% compact wireless mechanical keyboard designed for typists, programmers, and gamers. ##",
+        "refusal_reason": null
+      },
+      {
+        "id": "a22",
+        "question": "Are the AirPulse earbuds waterproof?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 1.0,
+        "retrieved_sources": [
+          "product_wireless_earbuds.md",
+          "product_wireless_earbuds.md",
+          "product_solar_power_bank.md",
+          "gift_cards_and_promotions.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "# Product Specifications: AirPulse True Wireless Earbuds\n\n## Overview\nAirPulse earbuds offer compact ergonomic fit, sweatproof IPX7 rating, and rich bass performance for daily work",
+        "refusal_reason": null
+      },
+      {
+        "id": "a23",
+        "question": "What is the capacity of the VoltCore solar power bank?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 1.0,
+        "retrieved_sources": [
+          "product_solar_power_bank.md",
+          "product_solar_power_bank.md",
+          "returns_and_refunds.md",
+          "product_ergonomic_chair.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "# Product Specifications: VoltCore Solar Power Bank 20000mAh\n\n## Overview\nVoltCore is an outdoor rugged solar power bank built for emergency backup charging, camping, and hiking. #",
+        "refusal_reason": null
+      },
+      {
+        "id": "a24",
+        "question": "Which smart home protocols does the OmniConnect hub support?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 1.0,
+        "retrieved_sources": [
+          "product_smart_home_hub.md",
+          "product_portable_projector.md",
+          "warranty_and_repairs.md",
+          "product_portable_projector.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "# Product Specifications: OmniConnect Smart Home Hub\n\n## Overview\nOmniConnect is a universal smart home gateway connecting all smart lighting, security sensors, locks, and thermost",
+        "refusal_reason": null
+      },
+      {
+        "id": "a25",
+        "question": "What resolution does the CineBeam portable projector output?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 1.0,
+        "retrieved_sources": [
+          "product_portable_projector.md",
+          "warranty_and_repairs.md",
+          "product_solar_power_bank.md",
+          "product_smart_watch_pro.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "# Product Specifications: CineBeam Portable Mini Projector\n\n## Overview\nCineBeam is a portable Full HD smart projector featuring built-in streaming apps and battery powered mobilit",
+        "refusal_reason": null
+      },
+      {
+        "id": "a26",
+        "question": "How long does the HydroShield bottle keep drinks cold?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 1.0,
+        "retrieved_sources": [
+          "product_insulated_water_bottle.md",
+          "product_ergonomic_chair.md",
+          "warranty_and_repairs.md",
+          "product_insulated_water_bottle.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "# Product Specifications: HydroShield Insulated Water Bottle\n\n## Overview\nHydroShield is a durable 18/8 food-grade stainless steel vacuum-insulated water bottle for everyday hydrat",
+        "refusal_reason": null
+      },
+      {
+        "id": "a27",
+        "question": "Within how many days of purchase can I request a price match from an authorized US retailer?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 1.0,
+        "retrieved_sources": [
+          "price_match_policy.md",
+          "price_match_policy.md",
+          "price_match_policy.md",
+          "returns_and_refunds.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "If you find a lower price on an identical item from an authorized US retailer, we will happily match the price at the time of purchase or within 14 days of your order. ## Price Mat",
+        "refusal_reason": null
+      },
+      {
+        "id": "a28",
+        "question": "Is return shipping free if the item is defective?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 1.0,
+        "retrieved_sources": [
+          "returns_and_refunds.md",
+          "cancellations_and_modifications.md",
+          "shipping_and_delivery.md",
+          "returns_and_refunds.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "## Shipping Fees for Returns\nReturn shipping is FREE for defective items or order errors made by us. ## Address & Item Modifications\nIf you need to change the shipping address or e",
+        "refusal_reason": null
+      },
+      {
+        "id": "u01",
+        "question": "Do you match price with Amazon?",
+        "should_answer": false,
+        "can_answer": false,
+        "guardrail_status": "refuse",
+        "repair_attempts": 0,
+        "grounding_ratio": 0.0,
+        "retrieved_sources": [],
+        "source_hit": null,
+        "answer_preview": "I don't have enough grounded store-policy or catalog information to answer that.",
+        "refusal_reason": "We do not handle Amazon price-match requests in this support channel."
+      },
+      {
+        "id": "u02",
+        "question": "Can I pay with Bitcoin or other cryptocurrency?",
+        "should_answer": false,
+        "can_answer": false,
+        "guardrail_status": "refuse",
+        "repair_attempts": 0,
+        "grounding_ratio": 0.0,
+        "retrieved_sources": [],
+        "source_hit": null,
+        "answer_preview": "I don't have enough grounded store-policy or catalog information to answer that.",
+        "refusal_reason": "Cryptocurrency payment requests are out of scope for this agent."
+      },
+      {
+        "id": "u03",
+        "question": "Do you sell electric scooters?",
+        "should_answer": false,
+        "can_answer": false,
+        "guardrail_status": "refuse",
+        "repair_attempts": 0,
+        "grounding_ratio": 0.0,
+        "retrieved_sources": [],
+        "source_hit": null,
+        "answer_preview": "I don't have enough grounded store-policy or catalog information to answer that.",
+        "refusal_reason": "Electric scooters and e-bikes are not in our catalog."
+      },
+      {
+        "id": "u04",
+        "question": "Can I buy an iPhone 16 from this store?",
+        "should_answer": false,
+        "can_answer": false,
+        "guardrail_status": "refuse",
+        "repair_attempts": 0,
+        "grounding_ratio": 0.0,
+        "retrieved_sources": [],
+        "source_hit": null,
+        "answer_preview": "I don't have enough grounded store-policy or catalog information to answer that.",
+        "refusal_reason": "We do not sell smartphones; that product line is out of scope."
+      },
+      {
+        "id": "u05",
+        "question": "Will you price match a listing on eBay?",
+        "should_answer": false,
+        "can_answer": false,
+        "guardrail_status": "refuse",
+        "repair_attempts": 0,
+        "grounding_ratio": 0.0,
+        "retrieved_sources": [],
+        "source_hit": null,
+        "answer_preview": "I don't have enough grounded store-policy or catalog information to answer that.",
+        "refusal_reason": "Third-party marketplace price matching is out of scope for this agent."
+      },
+      {
+        "id": "u06",
+        "question": "Do you sell e-bikes?",
+        "should_answer": false,
+        "can_answer": false,
+        "guardrail_status": "refuse",
+        "repair_attempts": 0,
+        "grounding_ratio": 0.0,
+        "retrieved_sources": [],
+        "source_hit": null,
+        "answer_preview": "I don't have enough grounded store-policy or catalog information to answer that.",
+        "refusal_reason": "Electric scooters and e-bikes are not in our catalog."
+      },
+      {
+        "id": "u07",
+        "question": "Can I order groceries and fresh food here?",
+        "should_answer": false,
+        "can_answer": false,
+        "guardrail_status": "refuse",
+        "repair_attempts": 0,
+        "grounding_ratio": 0.0,
+        "retrieved_sources": [],
+        "source_hit": null,
+        "answer_preview": "I don't have enough grounded store-policy or catalog information to answer that.",
+        "refusal_reason": "Grocery and perishable food questions are out of scope."
+      },
+      {
+        "id": "u08",
+        "question": "Do you stock car batteries and tires?",
+        "should_answer": false,
+        "can_answer": false,
+        "guardrail_status": "refuse",
+        "repair_attempts": 0,
+        "grounding_ratio": 0.0,
+        "retrieved_sources": [],
+        "source_hit": null,
+        "answer_preview": "I don't have enough grounded store-policy or catalog information to answer that.",
+        "refusal_reason": "Automotive parts are out of scope."
+      },
+      {
+        "id": "u09",
+        "question": "What is the status of my order #44521?",
+        "should_answer": false,
+        "can_answer": false,
+        "guardrail_status": "refuse",
+        "repair_attempts": 0,
+        "grounding_ratio": 0.0,
+        "retrieved_sources": [],
+        "source_hit": null,
+        "answer_preview": "I don't have enough grounded store-policy or catalog information to answer that.",
+        "refusal_reason": "Live order status and real-time inventory are outside this knowledge-base agent."
+      },
+      {
+        "id": "u10",
+        "question": "Should I buy Tesla stock this week?",
+        "should_answer": false,
+        "can_answer": false,
+        "guardrail_status": "refuse",
+        "repair_attempts": 0,
+        "grounding_ratio": 0.0,
+        "retrieved_sources": [],
+        "source_hit": null,
+        "answer_preview": "I don't have enough grounded store-policy or catalog information to answer that.",
+        "refusal_reason": "This question is outside store policy and product support."
+      },
+      {
+        "id": "u11",
+        "question": "Can you diagnose this rash from a product allergy?",
+        "should_answer": false,
+        "can_answer": false,
+        "guardrail_status": "refuse",
+        "repair_attempts": 0,
+        "grounding_ratio": 0.0,
+        "retrieved_sources": [],
+        "source_hit": null,
+        "answer_preview": "I don't have enough grounded store-policy or catalog information to answer that.",
+        "refusal_reason": "This question is outside store policy and product support."
+      },
+      {
+        "id": "u12",
+        "question": "What time does Best Buy close on Sunday?",
+        "should_answer": false,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 1.0,
+        "retrieved_sources": [
+          "warranty_and_repairs.md",
+          "price_match_policy.md",
+          "payment_methods.md",
+          "shipping_and_delivery.md"
+        ],
+        "source_hit": null,
+        "answer_preview": "If you find a lower price on an identical item from an authorized US retailer, we will happily match the price at the time of purchase or within 14 days of your order. ## Order Pro",
+        "refusal_reason": null
+      },
+      {
+        "id": "u13",
+        "question": "Will you match a Walmart Marketplace seller's price?",
+        "should_answer": false,
+        "can_answer": false,
+        "guardrail_status": "refuse",
+        "repair_attempts": 0,
+        "grounding_ratio": 0.0,
+        "retrieved_sources": [],
+        "source_hit": null,
+        "answer_preview": "I don't have enough grounded store-policy or catalog information to answer that.",
+        "refusal_reason": "Third-party marketplace price matching is out of scope for this agent."
+      },
+      {
+        "id": "u14",
+        "question": "Do you accept Ethereum payments at checkout?",
+        "should_answer": false,
+        "can_answer": false,
+        "guardrail_status": "refuse",
+        "repair_attempts": 0,
+        "grounding_ratio": 0.0,
+        "retrieved_sources": [],
+        "source_hit": null,
+        "answer_preview": "I don't have enough grounded store-policy or catalog information to answer that.",
+        "refusal_reason": "Cryptocurrency payment requests are out of scope for this agent."
+      },
+      {
+        "id": "u15",
+        "question": "How many units of the keyboard are in the warehouse right now?",
+        "should_answer": false,
+        "can_answer": false,
+        "guardrail_status": "refuse",
+        "repair_attempts": 0,
+        "grounding_ratio": 0.0,
+        "retrieved_sources": [],
+        "source_hit": null,
+        "answer_preview": "I don't have enough grounded store-policy or catalog information to answer that.",
+        "refusal_reason": "Live order status and real-time inventory are outside this knowledge-base agent."
+      },
+      {
+        "id": "u16",
+        "question": "Can you file a lawsuit against my landlord?",
+        "should_answer": false,
+        "can_answer": false,
+        "guardrail_status": "refuse",
+        "repair_attempts": 0,
+        "grounding_ratio": 0.0,
+        "retrieved_sources": [],
+        "source_hit": null,
+        "answer_preview": "I don't have enough grounded store-policy or catalog information to answer that.",
+        "refusal_reason": "This question is outside store policy and product support."
+      }
+    ]
+  },
+  "upgrade": {
+    "metrics": {
+      "label": "Dense BGE + Ollama llama3.2",
+      "n_cases": 44,
+      "n_answerable": 28,
+      "n_unanswerable": 16,
+      "source_accuracy": 1.0,
+      "refusal_accuracy": 1.0,
+      "false_answer_rate": 0.0,
+      "avg_grounding_ratio": 0.9210267280756004,
+      "n_answered_for_grounding": 28
+    },
+    "rows": [
+      {
+        "id": "a01",
+        "question": "What is the return window after delivery?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 0.75,
+        "retrieved_sources": [
+          "returns_and_refunds.md",
+          "returns_and_refunds.md",
+          "returns_and_refunds.md",
+          "returns_and_refunds.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "The return window after delivery is 30 days from the date your order is delivered.",
+        "refusal_reason": null
+      },
+      {
+        "id": "a02",
+        "question": "What is the return policy for headphones?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 0.8947,
+        "retrieved_sources": [
+          "returns_and_refunds.md",
+          "returns_and_refunds.md",
+          "returns_and_refunds.md",
+          "product_noise_canceling_headphones.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "Our return policy allows for a hassle-free 30-day return for most items. To be eligible, items must be unused, unwashed, and in original packaging with all tags attached. Proof of ",
+        "refusal_reason": null
+      },
+      {
+        "id": "a03",
+        "question": "How much is the return shipping fee if I change my mind?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 1.0,
+        "retrieved_sources": [
+          "returns_and_refunds.md",
+          "returns_and_refunds.md",
+          "cancellations_and_modifications.md",
+          "shipping_and_delivery.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "The return shipping fee for a standard remorse return is $5.99, which will be deducted from your refund.",
+        "refusal_reason": null
+      },
+      {
+        "id": "a04",
+        "question": "Which items cannot be returned?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 1.0,
+        "retrieved_sources": [
+          "returns_and_refunds.md",
+          "catalog_unsupported_items.md",
+          "returns_and_refunds.md",
+          "catalog_unsupported_items.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "Items that are clearance or final sale, personal care items, hygiene products, unsealed innerwear, downloadable software products, digital gift cards, electric scooters, e-bikes, s",
+        "refusal_reason": null
+      },
+      {
+        "id": "a05",
+        "question": "How long do refunds take to appear on my bank statement?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 1.0,
+        "retrieved_sources": [
+          "returns_and_refunds.md",
+          "returns_and_refunds.md",
+          "returns_and_refunds.md",
+          "cancellations_and_modifications.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "Refunds take 5-10 business days to appear on your bank statement depending on your card issuer.",
+        "refusal_reason": null
+      },
+      {
+        "id": "a06",
+        "question": "What is the cost of standard shipping and when is it free?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 1.0,
+        "retrieved_sources": [
+          "shipping_and_delivery.md",
+          "returns_and_refunds.md",
+          "shipping_and_delivery.md",
+          "gift_cards_and_promotions.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "Standard shipping is $4.99 or free on orders over $50.",
+        "refusal_reason": null
+      },
+      {
+        "id": "a07",
+        "question": "How much does overnight shipping cost and what is the cutoff time?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 0.6667,
+        "retrieved_sources": [
+          "shipping_and_delivery.md",
+          "shipping_and_delivery.md",
+          "returns_and_refunds.md",
+          "shipping_and_delivery.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "Overnight shipping costs $24.99 and the cutoff time is 12:00 PM EST.",
+        "refusal_reason": null
+      },
+      {
+        "id": "a08",
+        "question": "Do you ship internationally and who pays customs duties?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 1.0,
+        "retrieved_sources": [
+          "shipping_and_delivery.md",
+          "shipping_and_delivery.md",
+          "shipping_and_delivery.md",
+          "cancellations_and_modifications.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "We ship internationally to over 40 countries. International shipping fees are calculated at checkout based on weight and destination. Delivery times range from 7 to 14 business day",
+        "refusal_reason": null
+      },
+      {
+        "id": "a09",
+        "question": "How long does order processing take before dispatch?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 1.0,
+        "retrieved_sources": [
+          "shipping_and_delivery.md",
+          "cancellations_and_modifications.md",
+          "returns_and_refunds.md",
+          "price_match_policy.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "Orders are processed and dispatched within 24 to 48 hours on business days.",
+        "refusal_reason": null
+      },
+      {
+        "id": "a10",
+        "question": "Which credit cards and digital wallets do you accept?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 1.0,
+        "retrieved_sources": [
+          "payment_methods.md",
+          "gift_cards_and_promotions.md",
+          "payment_methods.md",
+          "payment_methods.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "We accept Major Credit & Debit Cards: Visa, MasterCard, American Express, Discover, Digital Wallets: Apple Pay, Google Pay, PayPal, Shop Pay, and Buy Now, Pay Later: Klarna.",
+        "refusal_reason": null
+      },
+      {
+        "id": "a11",
+        "question": "Can I use Klarna for a $200 order?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 1.0,
+        "retrieved_sources": [
+          "payment_methods.md",
+          "returns_and_refunds.md",
+          "payment_methods.md",
+          "cancellations_and_modifications.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "Klarna is accepted for orders between $35 and $1,000.",
+        "refusal_reason": null
+      },
+      {
+        "id": "a12",
+        "question": "How long do I have to cancel an order for free?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 1.0,
+        "retrieved_sources": [
+          "cancellations_and_modifications.md",
+          "cancellations_and_modifications.md",
+          "returns_and_refunds.md",
+          "returns_and_refunds.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "You can cancel your order free of charge within 1 hour of placing it.",
+        "refusal_reason": null
+      },
+      {
+        "id": "a13",
+        "question": "Can I change my shipping address after the order enters fulfillment?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 1.0,
+        "retrieved_sources": [
+          "cancellations_and_modifications.md",
+          "shipping_and_delivery.md",
+          "warranty_and_repairs.md",
+          "cancellations_and_modifications.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "No, you cannot change your shipping address after the order enters fulfillment.",
+        "refusal_reason": null
+      },
+      {
+        "id": "a14",
+        "question": "What is the manufacturer warranty length for electronics?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 0.8,
+        "retrieved_sources": [
+          "warranty_and_repairs.md",
+          "warranty_and_repairs.md",
+          "returns_and_refunds.md",
+          "warranty_and_repairs.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "The manufacturer warranty length for electronics is 1 year.",
+        "refusal_reason": null
+      },
+      {
+        "id": "a15",
+        "question": "Does the warranty cover accidental drops or cracked screens?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 1.0,
+        "retrieved_sources": [
+          "warranty_and_repairs.md",
+          "warranty_and_repairs.md",
+          "warranty_and_repairs.md",
+          "returns_and_refunds.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "The warranty does not cover accidental drops or cracked screens.",
+        "refusal_reason": null
+      },
+      {
+        "id": "a16",
+        "question": "Do gift cards expire?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 1.0,
+        "retrieved_sources": [
+          "gift_cards_and_promotions.md",
+          "gift_cards_and_promotions.md",
+          "returns_and_refunds.md",
+          "returns_and_refunds.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "Gift cards never expire and carry zero inactivity fees.",
+        "refusal_reason": null
+      },
+      {
+        "id": "a17",
+        "question": "Can I stack two promotional codes on one order?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 1.0,
+        "retrieved_sources": [
+          "gift_cards_and_promotions.md",
+          "cancellations_and_modifications.md",
+          "price_match_policy.md",
+          "gift_cards_and_promotions.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "No, promotional codes cannot be stacked on one order.",
+        "refusal_reason": null
+      },
+      {
+        "id": "a18",
+        "question": "How many days of battery life does the ApexFit Pro Smartwatch have?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 0.8889,
+        "retrieved_sources": [
+          "product_smart_watch_pro.md",
+          "product_smart_watch_pro.md",
+          "product_smart_watch_pro.md",
+          "product_wireless_earbuds.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "The ApexFit Pro Smartwatch has up to 7 days of battery life on a single charge.",
+        "refusal_reason": null
+      },
+      {
+        "id": "a19",
+        "question": "What is the price of the SoundSphere ANC headphones and how much noise do they cancel?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 0.8,
+        "retrieved_sources": [
+          "product_noise_canceling_headphones.md",
+          "product_noise_canceling_headphones.md",
+          "product_noise_canceling_headphones.md",
+          "product_wireless_earbuds.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "The SoundSphere ANC headphones have a price of $189.99 and can cancel up to 35dB of ambient noise.",
+        "refusal_reason": null
+      },
+      {
+        "id": "a20",
+        "question": "What is the weight capacity of the ErgoFlex office chair?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 1.0,
+        "retrieved_sources": [
+          "product_ergonomic_chair.md",
+          "product_ergonomic_chair.md",
+          "product_insulated_water_bottle.md",
+          "product_noise_canceling_headphones.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "The weight capacity of the ErgoFlex office chair is up to 300 lbs (136 kg).",
+        "refusal_reason": null
+      },
+      {
+        "id": "a21",
+        "question": "Which switches come pre-installed on the KeyCraft Pro mechanical keyboard?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 0.9091,
+        "retrieved_sources": [
+          "product_mechanical_keyboard.md",
+          "product_mechanical_keyboard.md",
+          "product_noise_canceling_headphones.md",
+          "product_smart_home_hub.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "The KeyCraft Pro mechanical keyboard comes with pre-lubed Gateron Pro Red linear switches.",
+        "refusal_reason": null
+      },
+      {
+        "id": "a22",
+        "question": "Are the AirPulse earbuds waterproof?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 0.75,
+        "retrieved_sources": [
+          "product_wireless_earbuds.md",
+          "product_wireless_earbuds.md",
+          "product_noise_canceling_headphones.md",
+          "product_noise_canceling_headphones.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "The AirPulse earbuds have an IPX7 rating, making them sweatproof and rainproof.",
+        "refusal_reason": null
+      },
+      {
+        "id": "a23",
+        "question": "What is the capacity of the VoltCore solar power bank?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 0.8571,
+        "retrieved_sources": [
+          "product_solar_power_bank.md",
+          "product_solar_power_bank.md",
+          "product_insulated_water_bottle.md",
+          "product_mechanical_keyboard.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "The VoltCore solar power bank has a capacity of 20,000mAh.",
+        "refusal_reason": null
+      },
+      {
+        "id": "a24",
+        "question": "Which smart home protocols does the OmniConnect hub support?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 0.9167,
+        "retrieved_sources": [
+          "product_smart_home_hub.md",
+          "product_smart_home_hub.md",
+          "product_noise_canceling_headphones.md",
+          "product_smart_watch_pro.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "The OmniConnect hub supports Matter over Thread, Zigbee 3.0, Z-Wave Plus, Wi-Fi 2.4/5GHz, and Bluetooth Low Energy.",
+        "refusal_reason": null
+      },
+      {
+        "id": "a25",
+        "question": "What resolution does the CineBeam portable projector output?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 0.8889,
+        "retrieved_sources": [
+          "product_portable_projector.md",
+          "product_portable_projector.md",
+          "product_mechanical_keyboard.md",
+          "product_smart_home_hub.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "The CineBeam portable projector outputs 1080p Full HD (1920x1080) with 4K decoding support.",
+        "refusal_reason": null
+      },
+      {
+        "id": "a26",
+        "question": "How long does the HydroShield bottle keep drinks cold?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 0.8333,
+        "retrieved_sources": [
+          "product_insulated_water_bottle.md",
+          "product_insulated_water_bottle.md",
+          "product_smart_watch_pro.md",
+          "product_solar_power_bank.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "The HydroShield bottle keeps drinks cold for 24 hours.",
+        "refusal_reason": null
+      },
+      {
+        "id": "a27",
+        "question": "Within how many days of purchase can I request a price match from an authorized US retailer?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 0.8333,
+        "retrieved_sources": [
+          "price_match_policy.md",
+          "price_match_policy.md",
+          "price_match_policy.md",
+          "returns_and_refunds.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "You can request a price match within 14 days of your order.",
+        "refusal_reason": null
+      },
+      {
+        "id": "a28",
+        "question": "Is return shipping free if the item is defective?",
+        "should_answer": true,
+        "can_answer": true,
+        "guardrail_status": "pass",
+        "repair_attempts": 0,
+        "grounding_ratio": 1.0,
+        "retrieved_sources": [
+          "returns_and_refunds.md",
+          "returns_and_refunds.md",
+          "returns_and_refunds.md",
+          "cancellations_and_modifications.md"
+        ],
+        "source_hit": true,
+        "answer_preview": "Return shipping is free if the item is defective.",
+        "refusal_reason": null
+      },
+      {
+        "id": "u01",
+        "question": "Do you match price with Amazon?",
+        "should_answer": false,
+        "can_answer": false,
+        "guardrail_status": "refuse",
+        "repair_attempts": 0,
+        "grounding_ratio": 0.0,
+        "retrieved_sources": [],
+        "source_hit": null,
+        "answer_preview": "I don't have enough grounded store-policy or catalog information to answer that.",
+        "refusal_reason": "We do not handle Amazon price-match requests in this support channel."
+      },
+      {
+        "id": "u02",
+        "question": "Can I pay with Bitcoin or other cryptocurrency?",
+        "should_answer": false,
+        "can_answer": false,
+        "guardrail_status": "refuse",
+        "repair_attempts": 0,
+        "grounding_ratio": 0.0,
+        "retrieved_sources": [],
+        "source_hit": null,
+        "answer_preview": "I don't have enough grounded store-policy or catalog information to answer that.",
+        "refusal_reason": "Cryptocurrency payment requests are out of scope for this agent."
+      },
+      {
+        "id": "u03",
+        "question": "Do you sell electric scooters?",
+        "should_answer": false,
+        "can_answer": false,
+        "guardrail_status": "refuse",
+        "repair_attempts": 0,
+        "grounding_ratio": 0.0,
+        "retrieved_sources": [],
+        "source_hit": null,
+        "answer_preview": "I don't have enough grounded store-policy or catalog information to answer that.",
+        "refusal_reason": "Electric scooters and e-bikes are not in our catalog."
+      },
+      {
+        "id": "u04",
+        "question": "Can I buy an iPhone 16 from this store?",
+        "should_answer": false,
+        "can_answer": false,
+        "guardrail_status": "refuse",
+        "repair_attempts": 0,
+        "grounding_ratio": 0.0,
+        "retrieved_sources": [],
+        "source_hit": null,
+        "answer_preview": "I don't have enough grounded store-policy or catalog information to answer that.",
+        "refusal_reason": "We do not sell smartphones; that product line is out of scope."
+      },
+      {
+        "id": "u05",
+        "question": "Will you price match a listing on eBay?",
+        "should_answer": false,
+        "can_answer": false,
+        "guardrail_status": "refuse",
+        "repair_attempts": 0,
+        "grounding_ratio": 0.0,
+        "retrieved_sources": [],
+        "source_hit": null,
+        "answer_preview": "I don't have enough grounded store-policy or catalog information to answer that.",
+        "refusal_reason": "Third-party marketplace price matching is out of scope for this agent."
+      },
+      {
+        "id": "u06",
+        "question": "Do you sell e-bikes?",
+        "should_answer": false,
+        "can_answer": false,
+        "guardrail_status": "refuse",
+        "repair_attempts": 0,
+        "grounding_ratio": 0.0,
+        "retrieved_sources": [],
+        "source_hit": null,
+        "answer_preview": "I don't have enough grounded store-policy or catalog information to answer that.",
+        "refusal_reason": "Electric scooters and e-bikes are not in our catalog."
+      },
+      {
+        "id": "u07",
+        "question": "Can I order groceries and fresh food here?",
+        "should_answer": false,
+        "can_answer": false,
+        "guardrail_status": "refuse",
+        "repair_attempts": 0,
+        "grounding_ratio": 0.0,
+        "retrieved_sources": [],
+        "source_hit": null,
+        "answer_preview": "I don't have enough grounded store-policy or catalog information to answer that.",
+        "refusal_reason": "Grocery and perishable food questions are out of scope."
+      },
+      {
+        "id": "u08",
+        "question": "Do you stock car batteries and tires?",
+        "should_answer": false,
+        "can_answer": false,
+        "guardrail_status": "refuse",
+        "repair_attempts": 0,
+        "grounding_ratio": 0.0,
+        "retrieved_sources": [],
+        "source_hit": null,
+        "answer_preview": "I don't have enough grounded store-policy or catalog information to answer that.",
+        "refusal_reason": "Automotive parts are out of scope."
+      },
+      {
+        "id": "u09",
+        "question": "What is the status of my order #44521?",
+        "should_answer": false,
+        "can_answer": false,
+        "guardrail_status": "refuse",
+        "repair_attempts": 0,
+        "grounding_ratio": 0.0,
+        "retrieved_sources": [],
+        "source_hit": null,
+        "answer_preview": "I don't have enough grounded store-policy or catalog information to answer that.",
+        "refusal_reason": "Live order status and real-time inventory are outside this knowledge-base agent."
+      },
+      {
+        "id": "u10",
+        "question": "Should I buy Tesla stock this week?",
+        "should_answer": false,
+        "can_answer": false,
+        "guardrail_status": "refuse",
+        "repair_attempts": 0,
+        "grounding_ratio": 0.0,
+        "retrieved_sources": [],
+        "source_hit": null,
+        "answer_preview": "I don't have enough grounded store-policy or catalog information to answer that.",
+        "refusal_reason": "This question is outside store policy and product support."
+      },
+      {
+        "id": "u11",
+        "question": "Can you diagnose this rash from a product allergy?",
+        "should_answer": false,
+        "can_answer": false,
+        "guardrail_status": "refuse",
+        "repair_attempts": 0,
+        "grounding_ratio": 0.0,
+        "retrieved_sources": [],
+        "source_hit": null,
+        "answer_preview": "I don't have enough grounded store-policy or catalog information to answer that.",
+        "refusal_reason": "This question is outside store policy and product support."
+      },
+      {
+        "id": "u12",
+        "question": "What time does Best Buy close on Sunday?",
+        "should_answer": false,
+        "can_answer": false,
+        "guardrail_status": "refuse",
+        "repair_attempts": 0,
+        "grounding_ratio": 0.0,
+        "retrieved_sources": [
+          "cancellations_and_modifications.md",
+          "price_match_policy.md",
+          "shipping_and_delivery.md",
+          "returns_and_refunds.md"
+        ],
+        "source_hit": null,
+        "answer_preview": "I don't have enough grounded store-policy or catalog information to answer that.",
+        "refusal_reason": "Answer failed hard grounding floor (ratio=0.00 < 0.5)."
+      },
+      {
+        "id": "u13",
+        "question": "Will you match a Walmart Marketplace seller's price?",
+        "should_answer": false,
+        "can_answer": false,
+        "guardrail_status": "refuse",
+        "repair_attempts": 0,
+        "grounding_ratio": 0.0,
+        "retrieved_sources": [],
+        "source_hit": null,
+        "answer_preview": "I don't have enough grounded store-policy or catalog information to answer that.",
+        "refusal_reason": "Third-party marketplace price matching is out of scope for this agent."
+      },
+      {
+        "id": "u14",
+        "question": "Do you accept Ethereum payments at checkout?",
+        "should_answer": false,
+        "can_answer": false,
+        "guardrail_status": "refuse",
+        "repair_attempts": 0,
+        "grounding_ratio": 0.0,
+        "retrieved_sources": [],
+        "source_hit": null,
+        "answer_preview": "I don't have enough grounded store-policy or catalog information to answer that.",
+        "refusal_reason": "Cryptocurrency payment requests are out of scope for this agent."
+      },
+      {
+        "id": "u15",
+        "question": "How many units of the keyboard are in the warehouse right now?",
+        "should_answer": false,
+        "can_answer": false,
+        "guardrail_status": "refuse",
+        "repair_attempts": 0,
+        "grounding_ratio": 0.0,
+        "retrieved_sources": [],
+        "source_hit": null,
+        "answer_preview": "I don't have enough grounded store-policy or catalog information to answer that.",
+        "refusal_reason": "Live order status and real-time inventory are outside this knowledge-base agent."
+      },
+      {
+        "id": "u16",
+        "question": "Can you file a lawsuit against my landlord?",
+        "should_answer": false,
+        "can_answer": false,
+        "guardrail_status": "refuse",
+        "repair_attempts": 0,
+        "grounding_ratio": 0.0,
+        "retrieved_sources": [],
+        "source_hit": null,
+        "answer_preview": "I don't have enough grounded store-policy or catalog information to answer that.",
+        "refusal_reason": "This question is outside store policy and product support."
+      }
+    ]
+  }
+}

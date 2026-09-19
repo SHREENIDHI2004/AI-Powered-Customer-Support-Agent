@@ -1,0 +1,269 @@
+{
+  "description": "Held-out evaluation set for the e-commerce RAG support agent. Do not edit questions to chase metric targets.",
+  "cases": [
+    {
+      "id": "a01",
+      "question": "What is the return window after delivery?",
+      "should_answer": true,
+      "expected_sources": ["returns_and_refunds.md"]
+    },
+    {
+      "id": "a02",
+      "question": "What is the return policy for headphones?",
+      "should_answer": true,
+      "expected_sources": ["returns_and_refunds.md", "product_noise_canceling_headphones.md"]
+    },
+    {
+      "id": "a03",
+      "question": "How much is the return shipping fee if I change my mind?",
+      "should_answer": true,
+      "expected_sources": ["returns_and_refunds.md"]
+    },
+    {
+      "id": "a04",
+      "question": "Which items cannot be returned?",
+      "should_answer": true,
+      "expected_sources": ["returns_and_refunds.md"]
+    },
+    {
+      "id": "a05",
+      "question": "How long do refunds take to appear on my bank statement?",
+      "should_answer": true,
+      "expected_sources": ["returns_and_refunds.md"]
+    },
+    {
+      "id": "a06",
+      "question": "What is the cost of standard shipping and when is it free?",
+      "should_answer": true,
+      "expected_sources": ["shipping_and_delivery.md"]
+    },
+    {
+      "id": "a07",
+      "question": "How much does overnight shipping cost and what is the cutoff time?",
+      "should_answer": true,
+      "expected_sources": ["shipping_and_delivery.md"]
+    },
+    {
+      "id": "a08",
+      "question": "Do you ship internationally and who pays customs duties?",
+      "should_answer": true,
+      "expected_sources": ["shipping_and_delivery.md"]
+    },
+    {
+      "id": "a09",
+      "question": "How long does order processing take before dispatch?",
+      "should_answer": true,
+      "expected_sources": ["shipping_and_delivery.md"]
+    },
+    {
+      "id": "a10",
+      "question": "Which credit cards and digital wallets do you accept?",
+      "should_answer": true,
+      "expected_sources": ["payment_methods.md"]
+    },
+    {
+      "id": "a11",
+      "question": "Can I use Klarna for a $200 order?",
+      "should_answer": true,
+      "expected_sources": ["payment_methods.md"]
+    },
+    {
+      "id": "a12",
+      "question": "How long do I have to cancel an order for free?",
+      "should_answer": true,
+      "expected_sources": ["cancellations_and_modifications.md"]
+    },
+    {
+      "id": "a13",
+      "question": "Can I change my shipping address after the order enters fulfillment?",
+      "should_answer": true,
+      "expected_sources": ["cancellations_and_modifications.md"]
+    },
+    {
+      "id": "a14",
+      "question": "What is the manufacturer warranty length for electronics?",
+      "should_answer": true,
+      "expected_sources": ["warranty_and_repairs.md"]
+    },
+    {
+      "id": "a15",
+      "question": "Does the warranty cover accidental drops or cracked screens?",
+      "should_answer": true,
+      "expected_sources": ["warranty_and_repairs.md"]
+    },
+    {
+      "id": "a16",
+      "question": "Do gift cards expire?",
+      "should_answer": true,
+      "expected_sources": ["gift_cards_and_promotions.md"]
+    },
+    {
+      "id": "a17",
+      "question": "Can I stack two promotional codes on one order?",
+      "should_answer": true,
+      "expected_sources": ["gift_cards_and_promotions.md"]
+    },
+    {
+      "id": "a18",
+      "question": "How many days of battery life does the ApexFit Pro Smartwatch have?",
+      "should_answer": true,
+      "expected_sources": ["product_smart_watch_pro.md"]
+    },
+    {
+      "id": "a19",
+      "question": "What is the price of the SoundSphere ANC headphones and how much noise do they cancel?",
+      "should_answer": true,
+      "expected_sources": ["product_noise_canceling_headphones.md"]
+    },
+    {
+      "id": "a20",
+      "question": "What is the weight capacity of the ErgoFlex office chair?",
+      "should_answer": true,
+      "expected_sources": ["product_ergonomic_chair.md"]
+    },
+    {
+      "id": "a21",
+      "question": "Which switches come pre-installed on the KeyCraft Pro mechanical keyboard?",
+      "should_answer": true,
+      "expected_sources": ["product_mechanical_keyboard.md"]
+    },
+    {
+      "id": "a22",
+      "question": "Are the AirPulse earbuds waterproof?",
+      "should_answer": true,
+      "expected_sources": ["product_wireless_earbuds.md"]
+    },
+    {
+      "id": "a23",
+      "question": "What is the capacity of the VoltCore solar power bank?",
+      "should_answer": true,
+      "expected_sources": ["product_solar_power_bank.md"]
+    },
+    {
+      "id": "a24",
+      "question": "Which smart home protocols does the OmniConnect hub support?",
+      "should_answer": true,
+      "expected_sources": ["product_smart_home_hub.md"]
+    },
+    {
+      "id": "a25",
+      "question": "What resolution does the CineBeam portable projector output?",
+      "should_answer": true,
+      "expected_sources": ["product_portable_projector.md"]
+    },
+    {
+      "id": "a26",
+      "question": "How long does the HydroShield bottle keep drinks cold?",
+      "should_answer": true,
+      "expected_sources": ["product_insulated_water_bottle.md"]
+    },
+    {
+      "id": "a27",
+      "question": "Within how many days of purchase can I request a price match from an authorized US retailer?",
+      "should_answer": true,
+      "expected_sources": ["price_match_policy.md"]
+    },
+    {
+      "id": "a28",
+      "question": "Is return shipping free if the item is defective?",
+      "should_answer": true,
+      "expected_sources": ["returns_and_refunds.md"]
+    },
+    {
+      "id": "u01",
+      "question": "Do you match price with Amazon?",
+      "should_answer": false,
+      "expected_sources": []
+    },
+    {
+      "id": "u02",
+      "question": "Can I pay with Bitcoin or other cryptocurrency?",
+      "should_answer": false,
+      "expected_sources": []
+    },
+    {
+      "id": "u03",
+      "question": "Do you sell electric scooters?",
+      "should_answer": false,
+      "expected_sources": []
+    },
+    {
+      "id": "u04",
+      "question": "Can I buy an iPhone 16 from this store?",
+      "should_answer": false,
+      "expected_sources": []
+    },
+    {
+      "id": "u05",
+      "question": "Will you price match a listing on eBay?",
+      "should_answer": false,
+      "expected_sources": []
+    },
+    {
+      "id": "u06",
+      "question": "Do you sell e-bikes?",
+      "should_answer": false,
+      "expected_sources": []
+    },
+    {
+      "id": "u07",
+      "question": "Can I order groceries and fresh food here?",
+      "should_answer": false,
+      "expected_sources": []
+    },
+    {
+      "id": "u08",
+      "question": "Do you stock car batteries and tires?",
+      "should_answer": false,
+      "expected_sources": []
+    },
+    {
+      "id": "u09",
+      "question": "What is the status of my order #44521?",
+      "should_answer": false,
+      "expected_sources": []
+    },
+    {
+      "id": "u10",
+      "question": "Should I buy Tesla stock this week?",
+      "should_answer": false,
+      "expected_sources": []
+    },
+    {
+      "id": "u11",
+      "question": "Can you diagnose this rash from a product allergy?",
+      "should_answer": false,
+      "expected_sources": []
+    },
+    {
+      "id": "u12",
+      "question": "What time does Best Buy close on Sunday?",
+      "should_answer": false,
+      "expected_sources": []
+    },
+    {
+      "id": "u13",
+      "question": "Will you match a Walmart Marketplace seller's price?",
+      "should_answer": false,
+      "expected_sources": []
+    },
+    {
+      "id": "u14",
+      "question": "Do you accept Ethereum payments at checkout?",
+      "should_answer": false,
+      "expected_sources": []
+    },
+    {
+      "id": "u15",
+      "question": "How many units of the keyboard are in the warehouse right now?",
+      "should_answer": false,
+      "expected_sources": []
+    },
+    {
+      "id": "u16",
+      "question": "Can you file a lawsuit against my landlord?",
+      "should_answer": false,
+      "expected_sources": []
+    }
+  ]
+}
